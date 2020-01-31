@@ -1,0 +1,25 @@
+{
+  "name": "mysite",
+  "version": "1.0.0",
+  "description": "Bootstrap 4 with Jekyll example site.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bootstrap": "^4.4.1",
+    "jquery": "^3.4.1",
+    "popper.js": "^1.16.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/marcanuy/jekyll-bootstrap4.git"
+  },
+  "bugs": {
+    "url": "https://github.com/marcanuy/jekyll-bootstrap4/issues"
+  },
+  "homepage": "https://github.com/marcanuy/jekyll-bootstrap4#readme"
+}
