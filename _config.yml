@@ -8,10 +8,11 @@ repository: kelaspajak/kelaspajak.github.io
 encoding: UTF-8
 
 collections:
-  fitur:
+  _docs:
     output: true
-    permalink: /:collection/:title:output_ext
     screenshots: /assets/screenshot/logos.jpg
+  _explorer:
+    output: false
 
 
 include:
@@ -21,7 +22,7 @@ include:
 defaults:
   - scope:
       path: ""
-      type: fitur
+      type: _docs
     values:
       layout: detail
 

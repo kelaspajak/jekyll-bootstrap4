@@ -6,7 +6,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
   <link rel="canonical" href="{{ page.url | prepend: site.url }}">
   <!-- dedafult <meta name="viewport" content="width=device-width, initial-scale=1">-->
-  <link rel="stylesheet" href="assets/main.css?d={{ site.time | date: '%s' }}">
+  <link rel="stylesheet" href="/assets/main.css?d={{ site.time | date: '%s' }}">
   <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
   <link rel="icon" href="/favicon.ico" type="image/x-icon">
   {% seo %}
@@ -33,9 +33,10 @@
   </head>
 
 <body class="height-full">
+  {% include nav.html %}
   {% if page.dataid== "kup" %}{% assign buka = true %}{%else%}{% assign buka = false %}{% endif %}
   {% if buka %}
-  <div id="pengumuman">  
+    <div id="pengumuman">  
     <div class="flash text-center flash-success">
       
       {% octicon megaphone %} silakan menghubungi <a href="https://t.me/lesssummer/">less summer</a> untuk mengikuti materi ini <a href="javascript:closeit()" class="float-right">
@@ -50,7 +51,7 @@
 
   <script src="/assets/vendor/jquery.min.js"></script>
   <script src="/assets/vendor/popper.min.js"></script>
-  <script src="assets/vendor/bootstrap.min.js"></script>
+  <script src="/assets/vendor/bootstrap.min.js"></script>
 </body>
 
 </html>
